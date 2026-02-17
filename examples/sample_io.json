@@ -1,0 +1,38 @@
+{
+  "description": "Example inputs and outputs for VoiceStyle system",
+  "example_user": {
+    "user_name": "Alex Chen - Tech Founder",
+    "writing_samples": [
+      {
+        "text": "Stop building features nobody asked for. I see it every single week. Founders come to me with a product that has 47 features and zero paying customers. Here's the truth: your users don't care about your roadmap. They care about their problem. Pick ONE problem. Solve it so well that people can't shut up about it. That's the whole game. Everything else is noise."
+      },
+      {
+        "text": "I spent 3 years building the wrong thing. Not because I was lazy — because I was scared. Scared to talk to customers. Scared to hear 'no.' Scared to find out my idea wasn't as brilliant as I thought. So I hid behind code. Built feature after feature. Perfected the UI. Optimized the database. Did everything except the one thing that mattered: asking people if they'd pay for it. Don't be me. Talk to your customers today."
+      },
+      {
+        "text": "Hot take: most startup advice is terrible. 'Move fast and break things.' Cool, but what if you break your customers' trust? 'Fake it till you make it.' Great, until someone finds out you faked it. Here's my advice instead: be honest. Be fast. Be useful. That's it. No frameworks. No acronyms. Just do the work and don't lie about it."
+      },
+      {
+        "text": "The best product decision I ever made was removing a feature. We had this beautiful analytics dashboard. Took us 4 months to build. Users loved the demo. Nobody used it in production. So we killed it. Our activation rate jumped 23% the next week. Why? Because we removed a distraction and let users focus on what actually mattered. Sometimes less isn't just more — it's everything."
+      },
+      {
+        "text": "You don't need a co-founder. You don't need VC money. You don't need a fancy office. You know what you need? A customer who has a problem and a willingness to pay you to solve it. That's it. I bootstrapped my first company from a coffee shop with a $200 laptop. Made $10K in the first month. Not because I was special — because I solved a real problem for real people. Start there."
+      },
+      {
+        "text": "Everyone wants to talk about scale. Nobody wants to talk about the first 10 customers. Getting those first 10 is harder than getting the next 1,000. Because those first 10 require you to do things that don't scale. Send personal emails. Hop on calls. Fix bugs in real-time. Hand-hold people through onboarding. It's messy and uncomfortable and absolutely necessary."
+      },
+      {
+        "text": "I fired our biggest client last year. They were 40% of our revenue. Everyone thought I was insane. But here's what they didn't see: that client was consuming 80% of our engineering time with custom requests. Our product was becoming THEIR product. Two months after we let them go, we shipped 3 major features, signed 15 new clients, and grew revenue by 60%. Sometimes you have to lose money to make money."
+      }
+    ]
+  },
+  "generic_draft_input": "Artificial intelligence is transforming the way businesses operate in today's digital landscape. Companies across various industries are leveraging AI technologies to improve efficiency, reduce costs, and enhance customer experiences. From automated customer service chatbots to predictive analytics tools, AI applications are becoming increasingly sophisticated and accessible. Organizations that embrace these technologies early are likely to gain a significant competitive advantage in their respective markets. However, it is important to approach AI adoption strategically, ensuring that implementations align with business objectives and deliver measurable value.",
+  "expected_output_style_notes": [
+    "The generic draft uses formal, corporate language with long sentences averaging ~20 words",
+    "Alex's style uses short, punchy sentences (avg ~11 words), high variation, and rhetorical questions",
+    "The rewrite should include direct address ('you'), contractions, and strong opening hooks",
+    "Bullet points should be avoided — Alex uses flowing short paragraphs",
+    "Signature patterns: 'Here's the truth:', imperative sentences, personal anecdotes feel"
+  ],
+  "sample_rewritten_output": "Everyone's talking about AI. But here's what nobody tells you: most companies are doing it wrong.\n\nThey buy the tools. They hire the consultants. They build the dashboards. And nothing changes. Why? Because they're chasing technology instead of solving problems.\n\nHere's the truth: AI doesn't care about your digital transformation roadmap. Your customers don't either.\n\nPick ONE process that's broken. Use AI to fix it. Measure the result. That's it.\n\nI've seen companies blow millions on 'AI strategy' with zero ROI. And I've seen a solo founder use a simple chatbot to cut support costs by 40% in a week.\n\nThe difference? One started with the problem. The other started with the hype.\n\nDon't be the company with 47 AI initiatives and zero results. Be the one that actually ships something useful.\n\nStart small. Start today."
+}
