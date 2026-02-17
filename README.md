@@ -227,10 +227,4 @@ Autantic-ai-voice-system/
 
 ---
 
-## Pricing Context
 
-This product would be priced at:
-- **$29/month** (monthly)
-- **$24/month** (annual billing)
-
-Billing is not implemented — this is a technical reference.
