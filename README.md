@@ -112,6 +112,66 @@ Open `http://localhost:3000` in your browser.
 
 ---
 
+## Deployment
+
+### Backend (Render)
+
+The backend is deployed at: `https://autantic-ai-voice-system.onrender.com`
+
+To deploy your own:
+
+1. Create a [Render](https://render.com) account (free tier available)
+2. Create a new **Web Service** from your GitHub repository
+3. Configure:
+   - **Root Directory**: `backend`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+4. Add environment variable:
+   - **Key**: `GEMINI_API_KEY`
+   - **Value**: Your Gemini API key
+5. Deploy! Your API will be live at `https://your-app-name.onrender.com`
+
+### Frontend (Vercel)
+
+The frontend can be deployed to Vercel for free:
+
+1. Go to [Vercel](https://vercel.com) and sign in with GitHub
+2. Click **Add New** → **Project**
+3. Import your GitHub repository
+4. Configure deployment settings:
+   - **Framework Preset**: `Other`
+   - **Root Directory**: `frontend`
+   - **Build Command**: Leave empty or use `echo 'Static files'`
+   - **Output Directory**: `.` (current directory)
+   - **Install Command**: Leave empty
+5. The frontend will auto-discover `index.html`
+6. Click **Deploy**
+
+**Important**: The frontend in this repository is already configured to use the Render backend at `https://autantic-ai-voice-system.onrender.com`. If you deployed your own backend, update the `API_BASE` constant in `frontend/app.js`:
+
+```javascript
+const API_BASE = "https://your-backend-url.onrender.com";
+```
+
+### Environment Variables (Vercel - Optional)
+
+While not required for this static frontend, you can add the `GEMINI_API_KEY` as an environment variable in Vercel settings if needed for future enhancements.
+
+### Local Development Without Python
+
+If you prefer not to use Python for local frontend development:
+
+```bash
+# Using npx (Node.js)
+cd frontend
+npx serve -p 3000
+
+# Or using Python's built-in server
+python -m http.server 3000
+```
+
+---
+
 ## Usage
 
 ### Step 1: Create a Voice Profile

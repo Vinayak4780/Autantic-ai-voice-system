@@ -1,13 +1,13 @@
 /**
  * VoiceStyle — Frontend Application
  * 
- * Communicates with the FastAPI backend (port 8000) to:
+ * Communicates with the FastAPI backend (deployed on Render) to:
  * 1. Onboard users by submitting writing samples
  * 2. Rewrite text using saved style profiles
  * 3. Manage style profiles
  */
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://autantic-ai-voice-system.onrender.com";
 
 // ── State ────────────────────────────────────────────────────────────────
 
